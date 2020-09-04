@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button {
+    @apply bg-white bg-opacity-75 flex justify-center items-center border border-white cursor-pointer;
+}
+
+.button:hover {
+    @apply bg-opacity-100;
+}
+
+.button:active {
+    @apply text-white bg-white bg-opacity-50 border-0;
+}
