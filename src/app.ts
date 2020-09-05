@@ -19,7 +19,7 @@ equalsButton.addEventListener("click", () => {
   calculator.updateDisplay()
 });
 
-console.log("zgg");
+console.log("/sfisvsse");
 
 operationButtons.forEach((operationButton) => {
   operationButton.addEventListener("click", () => {

@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/app.ts",
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "./public"),
   },
   devtool: "none",
   module: {
@@ -22,6 +22,6 @@ module.exports = {
     extensions: [".js", ".ts"],
   },
   plugins: [
-    new CleanPlugin.CleanWebpackPlugin(),
+    // new CleanPlugin.CleanWebpackPlugin(),
   ]
 };

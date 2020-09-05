@@ -6,14 +6,13 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "public"),
-    publicPath: "/",
 
   },
 
   devServer: {
     contentBase: path.resolve(__dirname,"public"),
     // hot: true,
-    // publicPath: "/",
+    publicPath: "/",
   },
   devtool: "inline-source-map",
   module: {
@@ -26,6 +25,6 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".js", ".ts"],
+    extensions: [".ts", ".js"],
   },
 };
