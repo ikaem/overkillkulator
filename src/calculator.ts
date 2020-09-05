@@ -12,7 +12,6 @@ export default class Calculator {
 
   updateCurrentValue = (newValue: string) => {
       if(newValue === "." && this.currentValue.includes(".")) return;
-    // just update the thing
     this.currentValue = this.currentValue + newValue;
   };
 

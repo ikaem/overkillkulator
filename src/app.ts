@@ -19,6 +19,8 @@ equalsButton.addEventListener("click", () => {
   calculator.updateDisplay()
 });
 
+console.log("zgg");
+
 operationButtons.forEach((operationButton) => {
   operationButton.addEventListener("click", () => {
     calculator.setOperation(operationButton.textContent!.trim());
